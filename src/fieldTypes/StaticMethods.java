@@ -5,7 +5,7 @@ public class StaticMethods {
 
     public static int count = 5;
 
-    public static void disPlayMessage(String message){
+    public static void displayMessage(String message){
         System.out.println("message = " + message);
 
        // System.out.println("num = " + num); non-static field
@@ -20,6 +20,6 @@ public class StaticMethods {
 
         System.out.println("count = " + count);
 
-        disPlayMessage("Hello from instance method");
+        displayMessage("Hello from instance method");
     }
 }
