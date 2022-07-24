@@ -28,6 +28,7 @@ public class Employee {
                 ", jobTitle='" + jobTitle + '\'' +
                 ", ID=" + ID +
                 ", salary=" + salary +
+                ", companyName=" + companyName +
                 '}';
     }
 }
